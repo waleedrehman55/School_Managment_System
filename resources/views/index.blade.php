@@ -39,7 +39,7 @@
     </div>
 
   <!-- About Section -->
-<section class="about_container mt-5">
+<section class="about_container">
   <div class="container-fluid">
     <div class="row d-flex align-items-center flex-wrap">
 
