@@ -336,3 +336,182 @@
 .btn-primary:hover {
   background-color: #00308f;
 }
+/* Notice section Style */
+.myMarquee {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background: linear-gradient(90deg, #001f61, #013970, #1264b6);
+  padding: 20px;
+ display: flex;
+  align-items: center;
+}
+
+.scroller {
+  display: flex;
+  gap: 50px;
+  height: 50px;
+  animation: scroll 15s linear infinite;
+}
+
+.scroller div {
+  font-family: 'Fredoka', sans-serif;
+  font-size: 30px;
+  line-height: 50px;
+  color: white;
+  white-space: nowrap;
+  font-weight: 600;
+}
+
+.scroller div a {
+  color: #ffde59;
+  text-decoration: underline;
+}
+
+/* Pause scroll on hover */
+.scroller:hover {
+  animation-play-state: paused;
+  cursor: pointer;
+}
+
+/* Keyframes for scrolling */
+@keyframes scroll {
+  0%   { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+/* Notice section Style */
+/* Our Highlight Style */
+.section-title {
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  color: #001F61;
+}
+.section-title1 {
+  color: #333;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.custom-card {
+  border-radius: 20px 20px 0px 20px;
+  border: 0.2px solid #001F61;
+  overflow: hidden;
+}
+
+.card-body {
+  height: 100%;
+  padding: 25px;
+  border: 0.2px solid #001F61;
+   border-top-left-radius: 0px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 0px;
+}
+
+.img-container {
+  height: 140px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  color: #001F61;
+  min-height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-text {
+  font-family: 'Courier New', Courier, monospace;
+  color: #757575;
+  font-size: 14px;
+  text-align: justify;
+  min-height: 80px;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  transition: 0.3s ease;
+}
+/* Our Highlight Style */
+/* Our Campuses Style */
+.card-body {
+  border: 0.2px solid #001F61;
+  padding: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.card-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #001F61;
+}
+
+.card-text {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+  color: #757575;
+  text-align: justify;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  transition: 0.3s ease;
+}
+/* Our Campuses Style */
+.campuses_head{
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Our Campuses Style */
+/* Faculty Sec Style */
+.faculty_container{
+    background: #f9f9f9;
+}
+.team-card {
+  margin-top: 80px;
+  border: 1px solid #001F61;
+  border-radius: 12px;
+  transition: transform .3s ease, box-shadow .3s ease;
+}
+.team-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+.team-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  object-fit: cover;
+  margin-top: -75px;
+}
+.icon-circle {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.icon-circle:hover {
+  transform: scale(1.1);
+  opacity: 0.9;
+}
+/* Faculty Sec Style */
